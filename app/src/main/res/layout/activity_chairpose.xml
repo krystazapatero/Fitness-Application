@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/chairpose"/>
+            <Button
+                android:id="@+id/time"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="01:00"
+                android:textSize="28sp"
+                android:padding="15dp"
+                android:background="@drawable/button_bg_round"/>
+
+            <Button
+                android:id="@+id/startbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_bg"
+                android:gravity="center"
+                android:text="START"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="CHAIR POSE INSTRUCTIONS"
+                android:textColor="#686060"
+                android:textSize="20sp"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:background="@drawable/button_ji"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#ECEDE8"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECEDE8"
+                    android:paddingLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:text="1. Start in mountain pose and, as you inhale, bring your arms up, with the palms facing each other.\n\n2. As you exhale, bend your knees and sit back.\n\n3. Stay in chair pose for 30 seconds to 1 minute."/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="9dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="MINDFULNESS PRACTICE"
+                android:textColor="#686060"
+                android:textSize="17sp"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:background="@drawable/button_ji"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#ECEDE8"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECEDE8"
+                    android:paddingLeft="20dp"
+                    android:text="Open your chest, elongate the spine, push your pelvis down and relax. Keep your thighs and torso at a 90-degree angle, and maintain your lower back long." />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="CHAIR POSE BENEFITS"
+                android:textColor="#686060"
+                android:textSize="17sp"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:background="@drawable/button_ji"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="#ECEDE8"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECEDE8"
+                    android:paddingLeft="20dp"
+                    android:text="The chair pose stretches the shoulders and chest, and strengthens the ankles, thighs, calves, and lower back. This pose also stimulates the heart and abdominal organs, balances the body, and improves your focus and determination."/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_ji"
+                android:gravity="center"
+                android:padding="7dp"
+                android:text="CONTRADICTIONS"
+                android:textAlignment="center"
+                android:textColor="#686060"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="#ECEDE8"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECEDE8"
+                    android:paddingLeft="20dp"
+                    android:text="Knee or ankle injury."/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/dumbbellswing1"/>
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:padding="15dp"
+                android:background="@drawable/ic_baseline_timer_24"/>
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="DUMB BELL SWING INSTRUCTIONS"
+                android:textColor="#686060"
+                android:textSize="20sp"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:background="@drawable/button_ji"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#ECEDE8"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECEDE8"
+                    android:paddingLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Step 1: Stand with your feet shoulder-width apart, your toes pointed slightly outward, and hold a dumbbell in your right hand.\n\nStep 2: Squat and bring the dumbbell between your legs.\n\nStep 3: Stand up, swing the dumbbell up to about chest height, and switch it to your left hand.\n\nStep 4: Return to the squat position, and keep alternating hands for the duration of the set."/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="9dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="PROPER FORM and BREATHING PATTERN"
+                android:textColor="#686060"
+                android:textSize="17sp"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:background="@drawable/button_ji"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#ECEDE8"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECEDE8"
+                    android:paddingLeft="20dp"
+                    android:text="Roll your shoulders back, open your chest, and keep your spine neutral and aligned. Engage your core and breathe in as you lower your hips back and squat. Exhale as you stand back up, squeeze your glutes and switch the dumbbell to your opposite hand." />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="EXERCISE BENEFITS"
+                android:textColor="#686060"
+                android:textSize="17sp"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:background="@drawable/button_ji"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="#ECEDE8"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECEDE8"
+                    android:paddingLeft="20dp"
+                    android:text="The alternating dumbbell swing targets your glutes and thighs and helps to improve lower body strength and endurance. This exercise also works your core, legs, and shoulders, and gives you a great cardio boost."/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

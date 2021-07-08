@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/boatpose"/>
+            <Button
+                android:id="@+id/time"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="01:00"
+                android:textSize="28sp"
+                android:padding="15dp"
+                android:background="@drawable/button_bg_round"/>
+
+            <Button
+                android:id="@+id/startbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_bg"
+                android:gravity="center"
+                android:text="START"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="BOAT POSE INSTRUCTIONS"
+                android:textColor="#686060"
+                android:textSize="20sp"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:background="@drawable/button_ji"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#ECEDE8"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECEDE8"
+                    android:paddingLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Step 1: Sit on the mat with your legs fully extended and lean your torso back.\n\nStep 2: Raise both legs to a 45-degree angle and reach your arms to the front, keeping them parallel to the floor.\n\nStep 3: Stay in boat pose for 30 seconds to 1 minute."/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="9dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="MINDFULNESS PRACTICE"
+                android:textColor="#686060"
+                android:textSize="17sp"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:background="@drawable/button_ji"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#ECEDE8"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECEDE8"
+                    android:paddingLeft="20dp"
+                    android:text="Maintain your back flat, look ahead and actively reach your arms to the front. Keep your knees straight and breathe out as you release the pose." />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="BOAT POSE BENEFITS"
+                android:textColor="#686060"
+                android:textSize="17sp"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:background="@drawable/button_ji"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="#ECEDE8"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECEDE8"
+                    android:paddingLeft="20dp"
+                    android:text="The boat pose strengthens your abs, back and thighs, improves digestion and invigorates the whole body. This pose also helps to improve your balance and posture and boosts your focus and concentration."/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_ji"
+                android:gravity="center"
+                android:padding="7dp"
+                android:text="CONTRADICTIONS"
+                android:textAlignment="center"
+                android:textColor="#686060"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="#ECEDE8"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECEDE8"
+                    android:paddingLeft="20dp"
+                    android:text="Back or neck injury and low blood pressure."/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

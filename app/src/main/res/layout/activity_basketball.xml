@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/basketball1"/>
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:padding="15dp"
+                android:background="@drawable/ic_baseline_timer_24"/>
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="BASKETBALL SHOTS INSTRUCTIONS"
+                android:textColor="#686060"
+                android:textSize="20sp"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:background="@drawable/button_ji"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#ECEDE8"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECEDE8"
+                    android:paddingLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:text="1. Stand with your feet shoulder-width apart and the toes pointing slightly outward.\n\n2. Bend your knees, press your hips back, and take both hands close to your right foot.\n\n3. Jump up and extend your arms above your head and to the left.\n\n4. Land with your knees slightly bent and go back into the squat position.\n\n5. Repeat and then switch sid"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="9dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="PROPER FORM and BREATHING PATTERN"
+                android:textColor="#686060"
+                android:textSize="17sp"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:background="@drawable/button_ji"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#ECEDE8"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECEDE8"
+                    android:paddingLeft="20dp"
+                    android:text="Tighten your core, press your hips back, keep your chest up, and maintain your back aligned. Don’t let the knees extend beyond the toes and breathe out as you push through the heels to jump up. Extend your arms above your head and slightly to the left, and gaze up. Land softly on the balls of your feet, with your knees slightly bent." />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="EXERCISE BENEFITS"
+                android:textColor="#686060"
+                android:textSize="17sp"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:background="@drawable/button_ji"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="#ECEDE8"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECEDE8"
+                    android:paddingLeft="20dp"
+                    android:text="The basketball shots is a high-impact, full body exercise that improves your aerobic fitness, builds strength, and increases your speed and coordination. This move targets your core, legs, glutes, and shoulders, boosts your metabolism, and improves your stamina and endurance."/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
